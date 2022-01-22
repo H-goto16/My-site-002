@@ -1,0 +1,153 @@
+@import'variables';
+
+#title-animation {
+  font-family: 'Yeseva One', sans-serif;
+
+}
+.carousel-item {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  top: fixed !important;
+}
+body {
+  background-color: rgba(0, 0, 0, 0.856);
+  margin: 0;
+}
+.slider {
+  top: 0 !important;
+  
+}
+.brand {
+  font-family: 'Yeseva One', cursive;
+  font-size: $font-large !important;
+}
+.navbar-nav {
+  display: inline-flex;
+  justify-content: end !important;
+}
+.collapse {
+  display: inline-flex;
+  justify-content: end !important;
+}
+.navbar-collapse {
+  &.show {
+    transition: 1s;
+    display: block;
+  }
+}
+.header {
+  opacity: 0;
+  &.addClass {
+    opacity: 1;
+  }
+}
+.navbar-toggler {
+  border-color: #ffffff;
+  background-color: transparent;
+}
+.navbar-toggler-icon {
+  color: white;
+}
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-nav {
+  font-family: serif;
+}
+.card-img-overlay {
+  padding: 0;
+  padding-top: 25%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Yeseva One',  serif;
+  z-index: 100;
+  
+}
+.navbar-brand {
+  font-family: 'Yeseva One', cursive;
+}
+.sizing {
+    font-size: $font-exlarge !important;
+    display: none;
+}
+.sizing2 {
+    font-size: $font-medium;
+    display: none;
+}
+.slider {
+  display: none;
+}
+.main-container {
+  font-family: serif;
+}
+.main-text {
+  line-height: 8vh;
+  font-size: $font-medium;
+}
+.access {
+  text-align: center;
+}
+.ifmap {
+  width: clamp(300px, 80vw, 1920px) !important;
+  height: clamp(400px, 80vw, 800px) !important;
+
+}
+.logo {
+  width: 10vw;
+  height: auto;
+}
+.footer-text {
+  font-family: serif;
+  font-size: $font-medium !important;
+}
+.footer {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+.accordion {
+  display: inline-block;
+  position: relative; 
+  background-color: black;
+  width: 50vw !important;
+}
+.accordion-button {
+  display: block;
+  text-align: center;
+}
+.accordion-header {
+  background-color: black;
+}
+.Charcoal {
+  width: 40vw;
+}
+.beefimg {
+  width: 40vw;
+}
+.sub {
+  font-size: $font-medium;
+  line-height: 35px;
+}
+.icon {
+  margin: 3vw;
+  width: clamp(30px, 3vw, 40px);
+  height: auto;
+  cursor: pointer;
+}
+.footer-icon {
+  width: 10vw;
+  display: inline-block;
+}
+.fttext {
+  font-family: 'Yeseva One', cursive;
+  font-size: $font-exlarge;
+}
+.commit-text {
+  display: flex;
+  justify-content: center;
+  font-size: $font-exlarge;
+}
+.footer-title {
+  font-family: serif;
+}

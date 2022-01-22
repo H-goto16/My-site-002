@@ -1,0 +1,195 @@
+#title-animation {
+  font-family: 'Yeseva One', sans-serif;
+}
+
+.carousel-item {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  top: fixed !important;
+}
+
+body {
+  background-color: rgba(0, 0, 0, 0.856);
+  margin: 0;
+}
+
+.slider {
+  top: 0 !important;
+}
+
+.brand {
+  font-family: 'Yeseva One', cursive;
+  font-size: clamp(14px, 2vw, 20px) !important;
+}
+
+.navbar-nav {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: end !important;
+}
+
+.collapse {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: end !important;
+}
+
+.navbar-collapse.show {
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: block;
+}
+
+.header {
+  opacity: 0;
+}
+
+.header.addClass {
+  opacity: 1;
+}
+
+.navbar-toggler {
+  border-color: #ffffff;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-nav {
+  font-family: serif;
+}
+
+.card-img-overlay {
+  padding: 0;
+  padding-top: 25%;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Yeseva One',  serif;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-family: 'Yeseva One', cursive;
+}
+
+.sizing {
+  font-size: clamp(16px, 3vw, 35px) !important;
+  display: none;
+}
+
+.sizing2 {
+  font-size: clamp(12px, 1.8vw, 18px);
+  display: none;
+}
+
+.slider {
+  display: none;
+}
+
+.main-container {
+  font-family: serif;
+}
+
+.main-text {
+  line-height: 8vh;
+  font-size: clamp(12px, 1.8vw, 18px);
+}
+
+.access {
+  text-align: center;
+}
+
+.ifmap {
+  width: clamp(300px, 80vw, 1920px) !important;
+  height: clamp(400px, 80vw, 800px) !important;
+}
+
+.logo {
+  width: 10vw;
+  height: auto;
+}
+
+.footer-text {
+  font-family: serif;
+  font-size: clamp(12px, 1.8vw, 18px) !important;
+}
+
+.footer {
+  width: 100%;
+  position: absolute;
+  text-align: center;
+}
+
+.accordion {
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  width: 50vw !important;
+}
+
+.accordion-button {
+  display: block;
+  text-align: center;
+}
+
+.accordion-header {
+  background-color: black;
+}
+
+.Charcoal {
+  width: 40vw;
+}
+
+.beefimg {
+  width: 40vw;
+}
+
+.sub {
+  font-size: clamp(12px, 1.8vw, 18px);
+  line-height: 35px;
+}
+
+.icon {
+  margin: 3vw;
+  width: clamp(30px, 3vw, 40px);
+  height: auto;
+  cursor: pointer;
+}
+
+.footer-icon {
+  width: 10vw;
+  display: inline-block;
+}
+
+.fttext {
+  font-family: 'Yeseva One', cursive;
+  font-size: clamp(16px, 3vw, 35px);
+}
+
+.commit-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: clamp(16px, 3vw, 35px);
+}
+
+.footer-title {
+  font-family: serif;
+}
+/*# sourceMappingURL=style.css.map */
